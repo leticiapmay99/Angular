@@ -4,12 +4,17 @@ import { AppComponent } from './app.component';
 import { PhotosModule } from './photos/photos.module';
 import { AppRoutingModule } from './photos/app.routing.module';
 import { ErrorsModule } from './errors/errors.module';
+import { LoadButtonComponent } from './photos/photo-list/load-button/load-button.component';
+
+
 
 
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    LoadButtonComponent,
+
   ],
   imports: [
     BrowserModule,
